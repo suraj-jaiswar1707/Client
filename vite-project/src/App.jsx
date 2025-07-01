@@ -18,14 +18,6 @@ const App = () => {
      
          <button onClick={clicked}>clicked</button>
     </div>
-    <div style={{height:"33vh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
-     
-         <button onClick={clicked}>clicked</button>
-    </div>
-    <div style={{height:"33vh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
-     
-         <button onClick={clicked}>clicked</button>
-    </div>
     
 
     </>
