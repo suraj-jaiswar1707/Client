@@ -6,7 +6,7 @@ const App = () => {
   const clicked= async()=>
   {
     const response=prompt("Enter your name");
-   let res = await axios.get(`http://localhost:3000/${response}`)
+   let res = await axios.get(`https://server-m9o9.onrender.com/${response}`)
    setData(res.data)
    console.log(res.data);
   }
