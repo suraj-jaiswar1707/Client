@@ -7,17 +7,24 @@ const App = () => {
   {
     const response=prompt("Enter your name");
    let res = await axios.get(`https://server-m9o9.onrender.com/${response}`)
+  
    setData(res.data)
    console.log(res.data);
   }
   return (
 
     <>
-    <div style={{height:"100vh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
+    <div style={{height:"34cvh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
      
          <button onClick={clicked}>clicked</button>
-
-      
+    </div>
+    <div style={{height:"33vh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
+     
+         <button onClick={clicked}>clicked</button>
+    </div>
+    <div style={{height:"33vh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
+     
+         <button onClick={clicked}>clicked</button>
     </div>
     
 
