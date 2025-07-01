@@ -14,7 +14,15 @@ const App = () => {
   return (
 
     <>
-    <div style={{height:"34cvh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
+    <div style={{height:"34vh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
+     
+         <button onClick={clicked}>clicked</button>
+    </div>
+    <div style={{height:"33vh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
+     
+         <button onClick={clicked}>clicked</button>
+    </div>
+    <div style={{height:"33vh", width:"100vw", marginTop:"50px",backgroundColor:data}}>
      
          <button onClick={clicked}>clicked</button>
     </div>
